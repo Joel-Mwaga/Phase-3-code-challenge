@@ -2,7 +2,7 @@ from lib.models.author import Author
 from lib.models.magazine import Magazine
 from lib.models.article import Article
 
-# Example debug session
+ # This script is for debugging purposes to demonstrate the relationships
 if __name__ == "__main__":
     alice = Author.find_by_name("Alice")
     print("Alice's articles:", alice.articles())
